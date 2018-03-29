@@ -1,0 +1,132 @@
+* {
+  margin: 0;
+  padding: 0;
+  outline: none;
+  box-sizing: border-box;
+  font-family: "Raleway", sans-serif;
+  transition: all 0.5s; }
+
+section.Page1 {
+  background-image: url(../img/bgPage1.png);
+  width: 100%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding-bottom: 155px;
+  position: relative; }
+@media(max-width: 320px) {
+  section.Page1 {
+    padding-bottom: 50px; } }
+  section.Page1 .container {
+    width: 1170px;
+    margin: 0 auto; }
+@media(max-width: 1170px) {
+  section.Page1 .container {
+    width: 992px;
+    margin: 0 auto; }
+  @media(max-width: 992px) {
+    section.Page1 .container {
+      width: 768px;
+      margin: 0 auto; }
+    @media(max-width: 768px) {
+      section.Page1 .container {
+        width: 100%;
+        margin: 0 auto; }
+      @media(max-width: 320px) {
+        section.Page1 .container {
+          width: 100%;
+          margin: 0 auto; } } } } }
+    section.Page1 .container .header {
+      width: 100%;
+      height: 100px;
+      border: 1px #4f5168 solid; }
+      section.Page1 .container .header .logoPage1 {
+        width: 50%;
+        float: left;
+        line-height: 100px; }
+@media(max-width: 768px) {
+  section.Page1 .container .header .logoPage1 {
+    width: 100%;
+    text-align: center; } }
+      section.Page1 .container .header .navPage1 {
+        width: 50%;
+        float: left;
+        line-height: 100px;
+        margin-top: -20px; }
+@media(max-width: 768px) {
+  section.Page1 .container .header .navPage1 {
+    float: left;
+    line-height: 20px;
+    width: 100%;
+    text-align: center; } }
+        section.Page1 .container .header .navPage1 ul > li {
+          cursor: pointer;
+          display: inline;
+          text-transform: uppercase;
+          font-size: 13px;
+          font-weight: bold;
+          font-style: normal;
+          font-stretch: normal;
+          line-height: normal;
+          letter-spacing: normal;
+          text-align: left;
+          color: rgba(255, 255, 255, 0.75);
+          margin-right: 6%; }
+@media(max-width: 1170px) {
+  section.Page1 .container .header .navPage1 ul > li {
+    margin-right: 3%; }
+  @media(max-width: 992px) {
+    section.Page1 .container .header .navPage1 ul > li {
+      font-size: 10px;
+      margin-right: 2%; } } }
+    section.Page1 .container .contentPage1Block1 {
+      text-transform: uppercase;
+      font-size: 65px;
+      font-weight: bold;
+      font-style: normal;
+      font-stretch: normal;
+      line-height: 1.09;
+      letter-spacing: normal;
+      text-align: center;
+      color: #ffffff;
+      margin-top: 156px; }
+@media(max-width: 1170px) {
+  section.Page1 .container .contentPage1Block1 {
+    padding-left: 7%;
+    padding-right: 7%; } }
+    section.Page1 .container .contentPage1Block2 {
+      font-size: 22px;
+      font-weight: normal;
+      font-style: normal;
+      font-stretch: normal;
+      line-height: 1.5;
+      letter-spacing: normal;
+      text-align: center;
+      color: #ffffff;
+      margin-top: 41px; }
+@media(max-width: 1170px) {
+  section.Page1 .container .contentPage1Block2 {
+    padding-left: 7%;
+    padding-right: 7%; } }
+    section.Page1 .container .contentPage1Block3 {
+      width: 200px;
+      height: 46px;
+      margin: 0 auto;
+      margin-top: 77px;
+      margin-bottom: 156px; }
+      section.Page1 .container .contentPage1Block3 button {
+        width: 200px;
+        height: 46px;
+        border-radius: 2px;
+        background-color: #e84545;
+        font-size: 13px;
+        font-weight: 600;
+        font-style: normal;
+        font-stretch: normal;
+        line-height: 1.62;
+        letter-spacing: normal;
+        color: #ffffff;
+        text-transform: uppercase;
+        margin: 0 auto;
+        border-color: #e84545;
+        cursor: pointer; }

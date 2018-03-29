@@ -1,0 +1,125 @@
+@media(min-width: 1171px) {
+	.container{
+		width: 1170px;
+		margin: 0 auto;
+	}
+}
+@media(max-width: 1170px) {
+	.container {
+		width: 992px;
+		margin: 0 auto;
+	}
+	.Page1 ul>li{
+		margin-right: 3%;
+	}
+	.contentPage2Block1, .contentPage2Block2{
+		padding-left: 7%;
+		padding-right: 7%;
+	}
+}
+@media(max-width: 992px) {
+	.container {
+		width: 768px;
+		margin: 0 auto;
+	}
+	.Page1 ul>li{
+		font-size: 10px;
+		margin-right: 2%;
+	}
+	.page3foto1, .page3foto2, .page3foto3, .page3foto4, .page3foto5, .page3foto6, .page3foto7, .page3foto8{
+		width: 350px;
+		height: 280px;
+	}
+	.contentPage3foto1, .contentPage3foto2{
+		display: flex;
+		flex-wrap: wrap;
+}
+
+	.contentPage2Block1, .contentPage2Block2{
+		flex-wrap: wrap;
+	}
+	.block2page2, .block3page2, .block5page2, .block6page2, .block1page2, .block4page2{
+		margin-left: 0px;
+		padding-right: 50px;
+		padding-left: 50px;
+}
+	.block2page2, .block3page2, .block5page2, .block6page2{
+		margin-top: 45px;
+
+}
+	.page3foto1:hover:before, .page3foto2:hover:before, .page3foto3:hover:before, .page3foto4:hover:before, .page3foto5:hover:before, .page3foto6:hover:before, .page3foto7:hover:before, .page3foto8:hover:before{
+		padding-top: 125px;
+	}
+	.page3foto1:hover:after, .page3foto2:hover:after, .page3foto3:hover:after, .page3foto4:hover:after, .page3foto5:hover:after, .page3foto6:hover:after, .page3foto7:hover:after, .page3foto8:hover:after{
+		padding-top: 150px;
+	}
+}
+@media(max-width: 768px) {
+	.container {
+		width: 100%;
+		margin: 0 auto;
+	}
+	.logoPage1{
+		width: 100%;
+		text-align: center;
+	}
+	.navPage1{
+		margin-top: -20px;
+		float: left;
+		line-height: 20px;
+		width: 100%;
+		text-align: center;
+	}
+		.contentPage2Block1, .contentPage2Block2{
+		flex-direction: column;
+		align-items: center;
+
+	}
+	.block2page2, .block3page2, .block5page2, .block6page2{
+		margin-left:0px;
+}
+	.block2page2, .block3page2, .block5page2, .block6page2{
+		margin-top: 45px;
+}
+
+	.contentPage3foto1, .contentPage3foto2{
+		flex-direction: column;
+		align-items: center;
+}
+	.Page1{
+		padding-bottom: 50px;
+	}
+}
+}
+
+@media(max-width: 320px) {
+	.container {
+		width: 100%;
+		margin: 0 auto;
+	}
+	.contentPage2Block1, .contentPage2Block2{
+		flex-direction: column;
+		align-items: center;
+
+	}
+
+	.block2page2, .block3page2, .block5page2, .block6page2{
+		margin-top: 45px;
+		margin-left: 0px;
+}
+
+	.contentPage3foto1, .contentPage3foto2{
+		flex-direction: column;
+		align-items: center;
+}
+	.Page1{
+		padding-bottom: 50px;
+	}
+
+}
+
+
+
+
+
+
